@@ -1,0 +1,52 @@
+Created the world class to have obstacles (circlular and rectangular):
+    Configure circular obstacles by defining center and radius
+    For rectangular obstacles center of rectangle and length and width
+Implemented collision check on both circular and rectangular obstacles
+Tested by placing obstacles in the world: Collision detected message prints on collission. 
+
+-----------------------------------------------------------------------------------------
+world and visualization window dimensions not clearly defined. Ambiguities existed. no clarity
+
+Running flag in runner not implemented
+---
+Modifying forward function to get joint position of any joint with single call: changed calculation
+assert and then assign value
+
+Encapsulate Grid 2D
+
+
+Add joint velocity. To reach a goal position create a trapezoidal joint velocity based
+write controller step function based on jacobian with single loop.
+
+
+Commit message:
+Created a more robust and flexible structure for behavior trees using py_trees
+Added move to goal action and collision avoidance action.
+A modular structure to add actions and use them sequencially or based on superiority in the behvior trees
+
+Added code for A star algorithm which is used in the 'plan path and move 2 goal' behavior
+
+Cleaned the code with better encapsulation.
+Verified and tested working of both the behavior in multiple conditions.
+UI now shows planned path and path traversed by robotic arm
+
+TODO
+sensor position Grid
+obstacle, landmark, sensor pos enums
+
+3dof 3d space, basic functionalities
+add joint space check for nan and 
+atleast use jacobian for 
+
+
+Reachability check when putting goal position
+
+configuration_space check while setting joint angles
+
+Display errors on gui
+Input goal 
+select between analytical and differential 
+return gracefully when error in inverse
+
+
+change hardcoding of label positions in gui

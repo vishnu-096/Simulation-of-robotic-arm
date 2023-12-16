@@ -1,0 +1,27 @@
+{
+    "link_lengths": [50.0, 70.0, 35.0],
+    "analytical_ik": true,
+    "is_3d": false,
+    "joint_angles": [0.2, 0.2, 0],
+    "sensor": {
+      "sensor_radius": 70,
+      "sensor_fov": 3.14159,
+      "sensor_position": [0.0, 0.0]
+    },
+    "robot": {
+      "JOINT_LIMITS": [-6.28, 6.28],
+      "MAX_VELOCITY": 15,
+      "MAX_ACCELERATION": 50,
+      "DT": 0.1
+    },
+    "obstacles": [
+        {
+          "type": "circle",
+          "dimensions": [-25.0, 60.0, 10.0]
+        },
+        {
+          "type": "circle",
+          "dimensions": [40.0, 60.0, 10.0]
+        }
+          ]
+  }

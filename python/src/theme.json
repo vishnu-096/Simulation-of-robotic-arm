@@ -1,0 +1,24 @@
+{
+    "label":
+    {
+        "colours":
+        {
+            "dark_bg": "#25292e",    // Background color
+            "normal_text": "#2c3e50", // Text color (update this)
+            "text_shadow": "#505050"  // Shadow color
+        },
+        "font":
+        {
+            "name": "montserrat",
+            "size": "12",
+            "bold": "0",
+            "italic": "0"
+        },
+        "misc":
+        {
+            "text_shadow": "1",
+            "text_shadow_size": "1",
+            "text_shadow_offset": "0,0"
+        }
+    }
+}
